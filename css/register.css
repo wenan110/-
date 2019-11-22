@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/* CSS Document */
+body, h1, h3, h2, h4, h5, h6, p, dl, dd, ul, li, ol, td, form, input, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333; }
+
+body {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #666;
+  background: white; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  vertical-align: top;
+  display: block;
+  border: none; }
+
+a, input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+table {
+  border-collapse: collapse; }
+
+.border0 {
+  border: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.navigation {
+  height: 44px;
+  background-color: white; }
+  .navigation #navigation {
+    margin: 0 auto;
+    height: 44px;
+    width: 1263px;
+    background-color: #0092D8;
+    position: relative; }
+    .navigation #navigation #left {
+      float: left; }
+      .navigation #navigation #left a img {
+        height: 44px; }
+
+.register {
+  width: 1190px;
+  margin: 0 auto;
+  position: relative;
+  height: 700px; }
+  .register .picLeft {
+    position: absolute;
+    right: 520px;
+    top: 66px;
+    width: 560px;
+    height: 485px;
+    line-height: 485px; }
+    .register .picLeft img {
+      width: 560px;
+      height: 485px;
+      background-color: #fff; }
+  .register .picRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 378px;
+    height: 480px;
+    padding: 29px 38px 38px;
+    margin: 66px 100px 0px 0px;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0 4px 0 #d6d6d6;
+    border-radius: 2px;
+    display: none; }
+    .register .picRight .title1 {
+      margin-bottom: 15px;
+      width: 300px;
+      height: 40px;
+      font-size: 20px; }
+      .register .picRight .title1 input {
+        display: block;
+        width: 288px;
+        height: 38px;
+        line-height: 38px;
+        padding-left: 10px;
+        border: 1px solid #c8c8c8;
+        border-radius: 2px; }
+    .register .picRight .title21 {
+      margin: 10px 0 10px 0;
+      height: 40px;
+      width: 300px; }
+      .register .picRight .title21 input {
+        display: block;
+        width: 298px;
+        height: 38px;
+        line-height: 38px;
+        padding-left: 10px;
+        border: 1px solid #c8c8c8;
+        border-radius: 2px; }
+    .register .picRight .title22 {
+      margin: 10px 0 10px 0;
+      height: 40px;
+      width: 300px; }
+      .register .picRight .title22 input {
+        display: block;
+        width: 298px;
+        height: 38px;
+        line-height: 38px;
+        padding-left: 10px;
+        border: 1px solid #c8c8c8;
+        border-radius: 2px; }
+    .register .picRight .title23 {
+      margin: 10px 0 10px 0;
+      height: 40px;
+      width: 300px; }
+      .register .picRight .title23 input {
+        display: block;
+        width: 298px;
+        height: 38px;
+        line-height: 38px;
+        padding-left: 10px;
+        border: 1px solid #c8c8c8;
+        border-radius: 2px; }
+    .register .picRight div {
+      color: red; }
+    .register .picRight .title3 {
+      margin: 10px 0 10px 0;
+      height: 36px;
+      width: 300px;
+      color: #999;
+      font-size: 12px; }
+    .register .picRight .title4 {
+      margin: 10px 0 10px 0; }
+      .register .picRight .title4 input {
+        background-color: #fff; }
+      .register .picRight .title4 span {
+        margin-left: 10px; }
+      .register .picRight .title4 a {
+        color: #0078CF;
+        font-size: 12px; }
+    .register .picRight .title5 {
+      margin: 10px 0 10px 0;
+      display: block;
+      width: 300px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      background-color: #0092d8;
+      color: #fff;
+      margin: 20px 0 17px 0;
+      cursor: pointer; }
+    .register .picRight .title6 {
+      float: right; }
+      .register .picRight .title6 span {
+        color: #0092d8;
+        cursor: pointer; }
+  .register .picRight2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 378px;
+    height: 480px;
+    padding: 29px 38px 38px;
+    margin: 66px 100px 0px 0px;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0 4px 0 #d6d6d6;
+    border-radius: 2px; }
+    .register .picRight2 .title1 {
+      margin-bottom: 15px;
+      font-size: 20px; }
+    .register .picRight2 .title2 {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #c8c8c8; }
+      .register .picRight2 .title2 a {
+        font-size: 48px;
+        margin-right: 20px; }
+      .register .picRight2 .title2 a:nth-of-type(1) {
+        color: #068ABA; }
+      .register .picRight2 .title2 a:nth-of-type(2) {
+        color: #46A62D; }
+    .register .picRight2 .title3 {
+      margin-bottom: 25px;
+      font-size: 20px;
+      margin-top: 20px;
+      height: 20px; }
+    .register .picRight2 .title4 {
+      margin-bottom: 20px; }
+      .register .picRight2 .title4 input {
+        display: block;
+        width: 288px;
+        height: 38px;
+        line-height: 38px;
+        padding-left: 15px;
+        border: 1px solid #c8c8c8;
+        border-radius: 2px; }
+    .register .picRight2 .title7 {
+      margin-bottom: 20px; }
+      .register .picRight2 .title7 input {
+        display: block;
+        width: 288px;
+        height: 38px;
+        line-height: 38px;
+        padding-left: 15px;
+        border: 1px solid #c8c8c8;
+        border-radius: 2px; }
+    .register .picRight2 .title5 {
+      display: block;
+      width: 300px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      background-color: #0092d8;
+      color: #fff;
+      margin: 20px 0 17px 0;
+      cursor: pointer; }
+    .register .picRight2 .title6 {
+      color: #999; }
+      .register .picRight2 .title6 a {
+        color: #999;
+        font-size: 14px; }
+      .register .picRight2 .title6 span:nth-of-type(1) {
+        margin: 0 20px; }
+      .register .picRight2 .title6 span:nth-of-type(2) {
+        cursor: pointer; }
+      .register .picRight2 .title6 a:nth-of-type(2) {
+        margin-left: 60px; }
